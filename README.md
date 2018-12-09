@@ -22,7 +22,16 @@
 
 
 ### Output
+```
+Actual output:
++--root/
+|  +--fruits/
+|  |  +--green/
+|  |  |  +--avacado
+
+```
 ```json
+Structure
 {
     "name": "root",
     "type": "dir",
