@@ -158,7 +158,7 @@ class TreeObj {
             if(orderBy === 'after')
                 pos = orderCacheObj.idx+1;
             else
-                pos = orderCacheObj.idx-1;
+                pos = orderCacheObj.idx;
             console.log("Pos ",pos);
             this.AddObjectByName(this,srcCacheObj, dest.src, pos);
             return this;
