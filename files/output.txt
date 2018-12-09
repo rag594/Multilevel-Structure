@@ -1,0 +1,20 @@
+{
+    "name": "root",
+    "type": "dir",
+    "children": [
+        {
+            "name": "fruits",
+            "type": "dir",
+            "children": [
+                {
+                    "name": "apple",
+                    "type": "item",
+                    "children": [],
+                    "parent": "fruits"
+                }
+            ],
+            "idx": 1,
+            "parent": "root"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "postman-assn",
+  "version": "1.0.0",
+  "description": "MultiLevel Directory Simulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raghav Rastogi",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
