@@ -1,4 +1,4 @@
 create item chocolate
 create dir fruits
 create item apple fruits
-delete item chocolate
+move item apple root

@@ -67,7 +67,6 @@ class TreeObj {
             cacheResult = this.GetObjectByName(root.children[k],name);
             if(cacheResult) {
                 cacheResult.idx = k;
-                cacheResult.parent = root.name;
                 return cacheResult;
             }
         }
@@ -85,10 +84,12 @@ class TreeObj {
             temp["type"] = "dir";
             temp["children"] = [];
             if(type.src !== null && type.dest === null) {
+                temp["parent"] = "root";
                 this.children.push(temp);
             }
 
             if(type.src !== null && type.dest !== null) {
+                temp["parent"] = type.dest;
                 this.AddObjectByName(this, temp, type.dest, null);
             }
         }
@@ -99,10 +100,12 @@ class TreeObj {
             temp["type"] = "item";
             temp["children"] = [];
             if(type.src !== null && type.dest === null) {
+                temp["parent"] = "root";
                 this.children.push(temp);
             }
 
             if(type.src !== null && type.dest !== null) {
+                temp["parent"] = type.dest;
                 this.AddObjectByName(this, temp, type.dest, null);
             }
         }

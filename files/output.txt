@@ -3,6 +3,12 @@
     "type": "dir",
     "children": [
         {
+            "name": "chocolate",
+            "type": "item",
+            "children": [],
+            "parent": "root"
+        },
+        {
             "name": "fruits",
             "type": "dir",
             "children": [
@@ -13,8 +19,8 @@
                     "parent": "fruits"
                 }
             ],
-            "idx": 1,
-            "parent": "root"
+            "parent": "root",
+            "idx": 1
         }
     ]
 }

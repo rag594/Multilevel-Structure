@@ -98,7 +98,6 @@ for(let i = 0;i < commands.length;i++) {
         }
         break;
     }
-
 }
 
 let t1 = performance.now();
