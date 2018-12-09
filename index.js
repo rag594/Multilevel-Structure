@@ -104,4 +104,4 @@ for(let i = 0;i < commands.length;i++) {
 let t1 = performance.now();
 console.log("Constructing multilevel structure took " + (t1 - t0) + " milliseconds.");
 console.log(JSON.stringify(treeObj));
-utility.writeOutputToFile(JSON.stringify(treeObj,null, 4));
+utility.writeOutputToFile(JSON.stringify(treeObj,null, 4),constants.OUTPUT_FILE);
