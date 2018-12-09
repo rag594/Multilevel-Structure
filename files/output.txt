@@ -1,33 +1,4 @@
-{
-    "name": "root",
-    "type": "dir",
-    "children": [
-        {
-            "name": "chocolate",
-            "type": "item",
-            "children": [],
-            "parent": "root"
-        },
-        {
-            "name": "apple",
-            "type": "item",
-            "children": [],
-            "parent": "root",
-            "idx": 2
-        },
-        {
-            "name": "caramel",
-            "type": "item",
-            "children": [],
-            "parent": "root",
-            "idx": 1
-        },
-        {
-            "name": "fruits",
-            "type": "dir",
-            "children": [],
-            "parent": "root",
-            "idx": 2
-        }
-    ]
-}
++--root/
+|  +--fruits/
+|  |  +--green/
+|  |  |  +--avacado

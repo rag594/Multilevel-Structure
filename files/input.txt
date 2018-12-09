@@ -1,5 +1,3 @@
-create item chocolate
-create item caramel
 create dir fruits
-create item apple fruits
-move item apple root before caramel
+create dir green fruits
+create item avacado green
